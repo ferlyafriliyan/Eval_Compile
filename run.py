@@ -9,108 +9,7 @@ Github = 'github.com/Dvanmeploph'
 Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
 Version = '0.4'
 
-#------------[ WARNA-COLOR ]--------------#
-P = '\x1b[1;97m'
-M = '\x1b[1;91m'
-H = '\x1b[1;92m'
-K = '\x1b[1;93m'
-B = '\x1b[1;94m'
-U = '\x1b[1;95m' 
-O = '\x1b[1;96m'
-N = '\x1b[0m'    
-Z = "\033[1;30m"
-sir = '\033[41m\x1b[1;97m'
-x = '\33[m' # DEFAULT
-m = '\x1b[1;91m' #RED +
-k = '\033[93m' # KUNING +
-h = '\x1b[1;92m' # HIJAU +
-hh = '\033[32m' # HIJAU -
-u = '\033[95m' # UNGU
-kk = '\033[33m' # KUNING -
-b = '\33[1;96m' # BIRU -
-p = '\x1b[0;34m' # BIRU +
-
-###---[ IMPORT MODULE ]---###
-import bs4, re, time, requests, datetime, os, sys, random, platform
-from concurrent.futures import ThreadPoolExecutor as tred
-from bs4 import BeautifulSoup as parser
-from datetime import datetime
-from time import sleep
-hp = platform.platform()
-ses = requests.Session()
-try:
-	import pyfiglet
-except ImportError:
-	os.system('pip install pyfiglet')
-
-def tahunng(fx):
-	if len(fx)==15:
-		if fx[:10] in ['1000000000']       :tahunz = '2009'
-		elif fx[:9] in ['100000000']       :tahunz = '2009'
-		elif fx[:8] in ['10000000']        :tahunz = '2009'
-		elif fx[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:tahunz = '2009'
-		elif fx[:7] in ['1000006','1000007','1000008','1000009']:tahunz = '2010'
-		elif fx[:6] in ['100001']          :tahunz = '2010-2011'
-		elif fx[:6] in ['100002','100003'] :tahunz = '2011-2012'
-		elif fx[:6] in ['100004']          :tahunz = '2012-2013'
-		elif fx[:6] in ['100005','100006'] :tahunz = '2013-2014'
-		elif fx[:6] in ['100007','100008'] :tahunz = '2014-2015'
-		elif fx[:6] in ['100009']          :tahunz = '2015'
-		elif fx[:5] in ['10001']           :tahunz = '2015-2016'
-		elif fx[:5] in ['10002']           :tahunz = '2016-2017'
-		elif fx[:5] in ['10003']           :tahunz = '2018'
-		elif fx[:5] in ['10004']           :tahunz = '2019'
-		elif fx[:5] in ['10005']           :tahunz = '2020'
-		elif fx[:5] in ['10006','10007','10008']:tahunz = '2021-2022'
-		else:tahunz=''
-	elif len(fx) in [9,10]:
-		tahunz = '2008-2009'
-	elif len(fx)==8:
-		tahunz = '2007-2008'
-	elif len(fx)==7:
-		tahunz = '2006-2007'
-	else:tahunz=''
-	return tahunz
-
-###---[ANGGAP INI LOGO ]---###
-def logo(n):
-	return str(f"""
-╔═╗  ╔═╗┬─┐┌─┐┌─┐┬┌─
-╠╣───║  ├┬┘├─┤│  ├┴┐
-╚    ╚═╝┴└─┴ ┴└─┘┴ ┴
-{M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
-def logo2():
-	return str(f"""
-╔═╗  ╔═╗┬─┐┌─┐┌─┐┬┌─
-╠╣───║  ├┬┘├─┤│  ├┴┐
-╚    ╚═╝┴└─┴ ┴└─┘┴ ┴
-{M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
-
-###---[ TANGGAL ]---###
-sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-out = 'Linux-4.9.227-perf+-aarch64-with-libc'
-tete = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mai", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
-now = datetime.now()
-hari = now.day
-blx = now.month
-try:
-	if blx < 0 or blx > 12:exit()
-	xx = blx - 1
-except ValueError:exit()
-#if hp not in out:exit()
-bulan = sasi[xx]
-tahun = now.year
-tanggal = str(hari)+'-'+str(bulan)+'-'+str(tahun)
-sim_ok = f'OK-{hari}-{bulan}-{tahun}.txt'
-sim_cp = f'CP-{hari}-{bulan}-{tahun}.txt'
-warna_warni_biasa=random.choice([H,K,M,O,B,U])
-garis = f" {P}[{warna_warni_biasa}•{P}]"
-
-###---[ APPEND ]---###
-dump, sandi, metode = [], [], []
-tetel, opsi, proxy = [], [], []
-cepeh, sam, ugen2, ugen, redmi = [], [], [], [], []
-id, id2, loop ,ok , cp = [], [], 0, 0, 0
+### --- [ Append ] --- ###
 ugent = []
 ugen = []
 usam = []
@@ -118,37 +17,7 @@ ugen2 = []
 uakuh = []
 usragent = []
 uaku2 = []
-
-###---[ CLEAR LAYAR ]---###
-def clear_layar():
-	try:os.system('clear')
-	except:pass
-	
-
-###---[ GLOBAL KEMBALI ]---###
-def back():
-	try:open('.cookie.txt','r').read();get_data()
-	except IOError:login()
-	
-
-###---[ AUTO CREATE UA & PROXY ]---###
-try:
-	clear_layar()
-	print(logo2())
-	print(f'\r\n [!] sedang dump proxy dan create useragent')
-	try:os.remove('.proxy.txt')
-	except:pass
-#	A = ''
-#	one = ses.get('https://spys.me/socks.txt').text
-#	for x in one.splitlines():
-#		if '+' in x:
-#			if '.' in x:
-#				p = x.split(' ')[0]
-#				A += '\n'+p
-	uno = ses.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
-	open('.proxy.txt','w').write(uno)
-except requests.exceptions.ConnectionError:
-	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
+sys.stdout.write('x1b]2; DMBF | Dvanmeploph Multi Brute Force\x07')
 ###----------[ GENERATE USERAGENT ]---------- ###
 for xd in range(10000) :
 	a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
@@ -712,7 +581,154 @@ for xd in range(10000) :
 	g='Mobile Safari/537.36'
 	uga=f'{a} {b}; {c} {d}) {e}{f} {g}'
 	ugen.append(uga)
-    
+	
+
+def uaku():
+	try:
+		ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua:
+			ugen2.append(ub)
+	except:
+		a=requests.get('https://raw.githubusercontent.com/Dvanmeploph/sakera/main/ua.txt').text
+		ua=open('.ua.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.ua.txt','r').read().splitlines()	
+#------------[ WARNA-COLOR ]--------------#
+P = '\x1b[1;97m'
+M = '\x1b[1;91m'
+H = '\x1b[1;92m'
+K = '\x1b[1;93m'
+B = '\x1b[1;94m'
+U = '\x1b[1;95m' 
+O = '\x1b[1;96m'
+N = '\x1b[0m'    
+Z = "\033[1;30m"
+sir = '\033[41m\x1b[1;97m'
+x = '\33[m' # DEFAULT
+m = '\x1b[1;91m' #RED +
+k = '\033[93m' # KUNING +
+h = '\x1b[1;92m' # HIJAU +
+hh = '\033[32m' # HIJAU -
+u = '\033[95m' # UNGU
+kk = '\033[33m' # KUNING -
+b = '\33[1;96m' # BIRU -
+p = '\x1b[0;34m' # BIRU +
+
+###---[ IMPORT MODULE ]---###
+import bs4, re, time, requests, datetime, os, sys, random, platform
+from concurrent.futures import ThreadPoolExecutor as tred
+from bs4 import BeautifulSoup as parser
+from datetime import datetime
+from time import sleep
+hp = platform.platform()
+ses = requests.Session()
+try:
+	import pyfiglet
+except ImportError:
+	os.system('pip install pyfiglet')
+
+def tahunng(fx):
+	if len(fx)==15:
+		if fx[:10] in ['1000000000']       :tahunz = '2009'
+		elif fx[:9] in ['100000000']       :tahunz = '2009'
+		elif fx[:8] in ['10000000']        :tahunz = '2009'
+		elif fx[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:tahunz = '2009'
+		elif fx[:7] in ['1000006','1000007','1000008','1000009']:tahunz = '2010'
+		elif fx[:6] in ['100001']          :tahunz = '2010-2011'
+		elif fx[:6] in ['100002','100003'] :tahunz = '2011-2012'
+		elif fx[:6] in ['100004']          :tahunz = '2012-2013'
+		elif fx[:6] in ['100005','100006'] :tahunz = '2013-2014'
+		elif fx[:6] in ['100007','100008'] :tahunz = '2014-2015'
+		elif fx[:6] in ['100009']          :tahunz = '2015'
+		elif fx[:5] in ['10001']           :tahunz = '2015-2016'
+		elif fx[:5] in ['10002']           :tahunz = '2016-2017'
+		elif fx[:5] in ['10003']           :tahunz = '2018'
+		elif fx[:5] in ['10004']           :tahunz = '2019'
+		elif fx[:5] in ['10005']           :tahunz = '2020'
+		elif fx[:5] in ['10006','10007','10008']:tahunz = '2021-2022'
+		else:tahunz=''
+	elif len(fx) in [9,10]:
+		tahunz = '2008-2009'
+	elif len(fx)==8:
+		tahunz = '2007-2008'
+	elif len(fx)==7:
+		tahunz = '2006-2007'
+	else:tahunz=''
+	return tahunz
+
+###---[ANGGAP INI LOGO ]---###
+def logo(n):
+	return str(f"""
+╔═╗  ╔═╗┬─┐┌─┐┌─┐┬┌─
+╠╣───║  ├┬┘├─┤│  ├┴┐
+╚    ╚═╝┴└─┴ ┴└─┘┴ ┴
+{M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
+def logo2():
+	return str(f"""
+╔═╗  ╔═╗┬─┐┌─┐┌─┐┬┌─
+╠╣───║  ├┬┘├─┤│  ├┴┐
+╚    ╚═╝┴└─┴ ┴└─┘┴ ┴
+{M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
+
+###---[ TANGGAL ]---###
+sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+out = 'Linux-4.9.227-perf+-aarch64-with-libc'
+tete = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mai", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+now = datetime.now()
+hari = now.day
+blx = now.month
+try:
+	if blx < 0 or blx > 12:exit()
+	xx = blx - 1
+except ValueError:exit()
+#if hp not in out:exit()
+bulan = sasi[xx]
+tahun = now.year
+tanggal = str(hari)+'-'+str(bulan)+'-'+str(tahun)
+sim_ok = f'OK-{hari}-{bulan}-{tahun}.txt'
+sim_cp = f'CP-{hari}-{bulan}-{tahun}.txt'
+warna_warni_biasa=random.choice([H,K,M,O,B,U])
+garis = f" {P}[{warna_warni_biasa}•{P}]"
+
+###---[ APPEND ]---###
+dump, sandi, metode = [], [], []
+tetel, opsi, proxy = [], [], []
+cepeh, sam, ugen2, ugen, redmi = [], [], [], [], []
+id, id2, loop ,ok , cp = [], [], 0, 0, 0
+
+
+###---[ CLEAR LAYAR ]---###
+def clear_layar():
+	try:os.system('clear')
+	except:pass
+	
+
+###---[ GLOBAL KEMBALI ]---###
+def back():
+	try:open('.cookie.txt','r').read();get_data()
+	except IOError:login()
+	
+
+###---[ AUTO CREATE UA & PROXY ]---###
+try:
+	clear_layar()
+	print(logo2())
+	print(f'\r\n [!] sedang dump proxy dan create useragent')
+	try:os.remove('.proxy.txt')
+	except:pass
+#	A = ''
+#	one = ses.get('https://spys.me/socks.txt').text
+#	for x in one.splitlines():
+#		if '+' in x:
+#			if '.' in x:
+#				p = x.split(' ')[0]
+#				A += '\n'+p
+	uno = ses.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
+	open('.proxy.txt','w').write(uno)
+except requests.exceptions.ConnectionError:
+	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
 for xd in range(10000):
 	a='Mozilla/5.0; Profile/MIDP-2.1'
 	b=random.randrange(1, 9)
@@ -766,19 +782,6 @@ for x in range(999):
 	D = f' Chrome/{str(rr(20,100))}.0.{str(rr(1111,9999))}.{str(rr(20,100))}'
 	E = f' Mobile Safari/537.36'
 	F = f'{A}{C}{D}{E}'
-  
-def uaku():
-	try:
-		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
-			ugen2.append(ub)
-	except:
-		a=requests.get('https://raw.githubusercontent.com/Dvanmeploph/sakera/main/ua.txt').text
-		ua=open('.ua.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.ua.txt','r').read().splitlines()
 	if F in redmi:pass
 	else:redmi.append(F)
 try:abcd = open('.proxy.txt','r').read().splitlines()
