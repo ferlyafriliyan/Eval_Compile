@@ -816,7 +816,7 @@ def login():
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
 		token = re.search('(EAAG\w+)',data.text).group(1)
-		tem      = ('\nAnjir Keren Bang😼 @[100013275378835:0]\n\nDvanmeploph [ D = The v = Verly a = Afriliyan n = And = me = Merch - ploph\n')
+		tem      = ('\nAnjir Keren Bang😼 @[ - [ 100013275378835:0 ] - ]\n\nDvanmeploph [ D = The v = Verly a = Afriliyan n = And = me = Merch - ploph\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
 		link = ('https://www.facebook.com/photo?fbid=1658880191231144&set=a.135738266878685')
 		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Panutan gw nih sengol dong 😎"])
