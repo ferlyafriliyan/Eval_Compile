@@ -8,7 +8,15 @@ Author = 'Rochmat Basuki [ github.com/RozhBasXYZ ]'
 Github = 'github.com/Dvanmeploph'
 Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
 Version = '0.4'
-
+### ------ [ Import Module ] ------ ###
+###---[ IMPORT MODULE ]---###
+import bs4, re, time, requests, datetime, os, sys, random, platform
+from concurrent.futures import ThreadPoolExecutor as tred
+from bs4 import BeautifulSoup as parser
+from datetime import datetime
+from time import sleep
+hp = platform.platform()
+ses = requests.Session()
 ### --- [ Append ] --- ###
 ugent = []
 ugen = []
@@ -616,18 +624,10 @@ kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
 
-###---[ IMPORT MODULE ]---###
-import bs4, re, time, requests, datetime, os, sys, random, platform
-from concurrent.futures import ThreadPoolExecutor as tred
-from bs4 import BeautifulSoup as parser
-from datetime import datetime
-from time import sleep
-hp = platform.platform()
-ses = requests.Session()
-try:
-	import pyfiglet
-except ImportError:
-	os.system('pip install pyfiglet')
+#try:
+#	import pyfiglet
+#except ImportError:
+#	os.system('pip install pyfiglet')
 
 def tahunng(fx):
 	if len(fx)==15:
