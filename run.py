@@ -634,7 +634,7 @@ O2 = "[#00FFFF]" # Biru Muda
 P2 = "[#FFFFFF]" # Putih
 J2 = "[#FF8F00]" # Jingga
 A2 = "[#AAAAAA]" # Abu-Abu
-GOD = f"{QQ}•{II}•{MM}•{QQ}"
+GOD = f"{P2}•{H2}•{M2}•{P2}"
 #try:
 #	import pyfiglet
 #except ImportError:
