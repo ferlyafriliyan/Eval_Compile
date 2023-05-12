@@ -672,26 +672,26 @@ def tahunng(fx):
 
 ###---[ ANGGAP INI LOGO ]---###
 def logo(n):
-	return str(f"""
+	return str(f"""{P}
 ╭────────────────────────────────────────────────────────────────────────────────────────╮
 │ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____	 │
 │ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]			 |
+|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]			 |
+|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]			 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
 def logo2():
-	return str(f"""
+	return str(f"""{P}
 ╭────────────────────────────────────────────────────────────────────────────────────────╮
 │ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____	 │
 │ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]			 |
+|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]			 |
+|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]			 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
@@ -829,7 +829,7 @@ def get_data():
 def login():
 	clear_layar()
 	print(logo2())
-	cookie = input(f"\n {M}[{P}•{M}]{P} Jangan Gunakan Akun Pribadi {M}!\n {M}[{P}•{M}]{P}Apabila Akun A2F On, Buka Link Dibawah\n {M}[{P}•{M}]{K2}https://business.facebook.com/business_locations\n {M}[{P}•{M}]{P}Lalu Masukkan Kode Autentikasi\n Cookie : ")
+	cookie = input(f"\n {M}[{P}•{M}]{P} Jangan Gunakan Akun Pribadi {M}!\n {M}[{P}•{M}]{P} Apabila Akun A2F On, Buka Link Dibawah\n {M}[{P}•{M}]{k} https://business.facebook.com/business_locations\n {M}[{P}•{M}]{P} Lalu Masukkan Kode Autentikasi\n {M}[{P}•{M}]{P} Cookie : ")
 	url = "https://business.facebook.com/business_locations"
 	head = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
 	cok = {'cookie':cookie}
