@@ -859,7 +859,7 @@ def menu(n,t,c):
 	print(f" [{hh}04{P}] Crack From Comment       [{hh}10{P}] Check Account Non-Active")
 	print(f" [{hh}05{P}] Crack From Grup          [{hh}11{P}] Ccheck Option Account")
 	print(f" [{hh}06{P}] Crack From Email         [{hh}12{P}] Log Out ({M}Cookie{P})")
-	print(f" [{hh}13{P}] Crack From Phonee
+	print(f" [{hh}13{P}] Crack From Phonee")
 	ask = input(f' [{hh}>>{P}] Chooise : ')
 	print(' ─────────────────────────────')
 	if ask in ['1','01']:crack_publik(t,c)
