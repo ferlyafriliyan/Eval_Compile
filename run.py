@@ -829,7 +829,7 @@ def get_data():
 def login():
 	clear_layar()
 	print(logo2())
-	cookie = input(f"\n {M}[{P}•{M}]{P} Jangan Gunakan Akun Pribadi {M}!\n {M}[{P}•{M}]{P}Apabila Akun A2F On, Buka Link Dibawah\n {M}[{P}•{M}]{J2}https://business.facebook.com/business_locations\n {M}[{P}•{M}]{P}Lalu Masukkan Kode Autentikasi\n Cookie : ")
+	cookie = input(f"\n {M}[{P}•{M}]{P} Jangan Gunakan Akun Pribadi {M}!\n {M}[{P}•{M}]{P}Apabila Akun A2F On, Buka Link Dibawah\n {M}[{P}•{M}]{K2}https://business.facebook.com/business_locations\n {M}[{P}•{M}]{P}Lalu Masukkan Kode Autentikasi\n Cookie : ")
 	url = "https://business.facebook.com/business_locations"
 	head = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
 	cok = {'cookie':cookie}
