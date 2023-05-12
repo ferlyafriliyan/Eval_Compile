@@ -27,12 +27,12 @@ pkg update && pkg upgrade
 
 ```python
 termux-change-repo
-rm -rf $HOME/F-Crack
+rm -rf $HOME/Dark-Sensei
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Dvanmeploph/F-Crack
-cd F-Crack
+git clone https://github.com/Dvanmeploph/Dark-Sensei
+cd Dark-Sensei
 git pull
 pip3 install -r requirements.txt
 ```
