@@ -634,6 +634,7 @@ O2 = "[#00FFFF]" # Biru Muda
 P2 = "[#FFFFFF]" # Putih
 J2 = "[#FF8F00]" # Jingga
 A2 = "[#AAAAAA]" # Abu-Abu
+AAA = "\x1b[38;5;248m" # Abu-Abu
 GOD = f"{P2}•{H2}•{M2}•{P2}"
 #try:
 #	import pyfiglet
@@ -677,8 +678,8 @@ def logo(n):
 │ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {A2}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {A2}: Ferly Afriliyan [ Dvanmeploph ]				 |
+|{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
+|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]				 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
@@ -689,8 +690,8 @@ def logo2():
 │ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {A2}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {A2}: Ferly Afriliyan [ Dvanmeploph ]				 |
+|{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
+|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]				 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
