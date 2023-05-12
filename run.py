@@ -25,7 +25,7 @@ ugen2 = []
 uakuh = []
 usragent = []
 uaku2 = []
-sys.stdout.write('x1b]2; DMBF | Dvanmeploph Multi Brute Force\x07')
+sys.stdout.write('\x1b]2; DMBF - Facebook | Dvanmeploph Multi Brute Force - Facebook\x07')
 ###----------[ GENERATE USERAGENT ]---------- ###
 for xd in range(10000) :
 	a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
@@ -675,19 +675,15 @@ def logo(n):
 	return str(f"""{P}
  ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____
  |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |        
- |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__      
-	{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]                       
-	{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]                     
-	{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free              
-	{M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
+ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__              
+{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free              
+{M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
 def logo2():
 	return str(f"""{P}
  ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____
  |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |        
- |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__      
-	{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]                       
-	{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]                     
-	{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free           
+ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__              
+{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free           
 {M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
