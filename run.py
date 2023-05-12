@@ -679,7 +679,7 @@ def logo(n):
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
 |{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]				 |
+|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]			 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
@@ -691,7 +691,7 @@ def logo2():
 │ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
 │                                                                                  	 |
 |{M}•{K}•{H}• {P}Author    {AAA}: Rochmat Basuki [ RozhBasXYZ ]				 |
-|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]				 |
+|{M}•{K}•{H}• {P}Developer {AAA}: Ferly Afriliyan [ Dvanmeploph ]			 |
 |{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
