@@ -674,25 +674,23 @@ def tahunng(fx):
 def logo(n):
 	return str(f"""{P}
 ╭────────────────────────────────────────────────────────────────────────────────────────╮
-│ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____	 │
-│ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
-│ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
-│                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]			 |
-|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]			 |
-|{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
+│ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____      │
+│ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |        │
+│ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__      │
+|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]                       |
+|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]                     |
+|{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free              |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}•{K}•{H}• {P}Facebook Crack - [ MBF-Facebook ] {H}•{K}•{M}•""")
 def logo2():
 	return str(f"""{P}
 ╭────────────────────────────────────────────────────────────────────────────────────────╮
-│ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____	 │
-│ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |  	 │
-│ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__	 │
-│                                                                                  	 |
-|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]			 |
-|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]			 |
-|{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free		 |
+│ ______  _______  ______ _     _      _______ _______ __   _ _______ _______ _____      │
+│ |     \ |_____| |_____/ |____/       |______ |______ | \  | |______ |______   |        │
+│ |_____/ |     | |    \_ |    \_      ______| |______ |  \_| ______| |______ __|__      │
+|{M}•{K}•{H}• {P}Author    {AAA}: {P}Rochmat Basuki [ RozhBasXYZ ]                       |
+|{M}•{K}•{H}• {P}Developer {AAA}: {P}Ferly Afriliyan [ Dvanmeploph ]                     |
+|{M}•{K}•{H}• {P}Multi Brute Force Facebook - Crack Facebook Account - Free              |
 ╰────────────────────────────────────────────────────────────────────────────────────────╯
 {M}>{K}>{H}> {P}Checking For Login {H}>{K}>{M}>""")
 
