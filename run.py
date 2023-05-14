@@ -25,6 +25,8 @@ ugen2 = []
 uak = []
 uakuh = []
 usragent = []
+ugen5 = []
+sam = []
 usrgent2 = []
 uaku2 = []
 sys.stdout.write('\x1b]2; DMBF - Facebook | Dvanmeploph Multi Brute Force - Facebook\x07')
