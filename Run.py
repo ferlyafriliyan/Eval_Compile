@@ -67,10 +67,6 @@ from time import sleep
 hp = platform.platform()
 ses = requests.Session()
 #try:
-#	import pyfiglet
-#except ImportError:
-#	os.system('pip install pyfiglet')
-#	os.system('pip install pycryptodome')
 
 def tahunng(fx):
 	if len(fx)==15:
@@ -101,7 +97,7 @@ def tahunng(fx):
 	else:tahunz=''
 	return tahunz
 
-###---[ ANGGAP INI LOGO ]---###
+###  ------ [ ANGGAP INI LOGO ] ------  ###
 def logo(n):
 	return str(f"""{P}
 ╔═╗  ╔═╗┬─┐┌─┐┌─┐┬┌─
