@@ -1,49 +1,22 @@
-Welcome
---------|
-![](https://media.tenor.com/iVCiM9W7cvYAAAAd/welcome.gif)
+# Crypt SSL
+**Simple File Crypter using Openssl.**
 
-<details>
-  <summary><b>More information</b></summary>
-  
-#### ★ Social Accounts ★
-<a href="https://www.facebook.com/freya.xyz"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
-# ✭ FACEBOOK-CRACK 
-### Multi Brute Force Facebook
-  
-### • - Made With [ Rochmat Basuki (RozhBasXYZ) ]
-### • - Developer : Dvanmeploph
+[![Author](https://img.shields.io/badge/Author-Livian--xyz-blue)](https://github.com/Livian-xyz)
+[![Language](https://img.shields.io/badge/Written%20in-Bash-blue)](#)
+[![Opensource](https://img.shields.io/badge/Open%20Source-Yes-green)](#)
 
-  
-### ⇨  Fitur Login
-```
-[✯] Login Cookies   
-```
-### ⇨  Install Script Di Termux
-```python
-termux-setup-storage
-termux-change-repo
-pkg update && pkg upgrade
+### Installation :
+
+```bash
+$ apt install git -y
+$ git clone https://github.com/Livian-xyz/crypt-ssl.git
+$ cd crypt-ssl
+$ bash crypt.sh
 ```
 
-```python
-termux-change-repo
-rm -rf $HOME/F-Crack
-pkg update && pkg upgrade -y
-pkg install python git -y
-pkg install python-pip
-git clone https://github.com/Livian-xyz/F-Crack
-cd F-Crack
-git pull
-pip3 install -r requirements.txt
-```
+***Copyright (c) 2021 ferlyAfriliyan Under [MIT LICENSE](https://github.com/Livian-xyz/crypt-ssl/blob/master/LICENSE#L1)***
 
-* **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
-* ```python run.py```
-
-* **Untuk Stop Script Tekan : (To Stop Script Press :)**
-* ```CTRL + Z```
-
-** JANGAN LUPA KASIH BINTANG **
-
-** DON'T FORGET TO GIVE STARS **
-</details>
+### *📡 Get in Touch :*
+[![Github](https://img.shields.io/badge/Github-525252?style=for-the-badge&logo=github)](https://github.com/Livian-xyz)
+[![Facebook](https://img.shields.io/badge/Facebook-3b5998?style=for-the-badge&logo=facebook)](https://fb.com/freya.xyz)
+[![Instagram](https://img.shields.io/badge/Instagram-8a3ab9?style=for-the-badge&logo=instagram)](https://www.instagram.com/afriliyanferlly_shishigami)
