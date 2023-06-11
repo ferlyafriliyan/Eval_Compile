@@ -5,8 +5,8 @@
 # Recode?, Boleh Asal Cantumkan Nama Author
 # Jangan Ganti Bot Koment Gw
 Author = 'Rochmat Basuki [ github.com/RozhBasXYZ ]'
-Github = 'github.com/Itsmeafriliyan'
-Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY','Facebook.com/Dvanmeploph.Its'
+Github = 'github.com/Livian-xyz'
+Facebook = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY','Facebook.com/Itsme.Dvanme','Facebook.com/freya.xyz'
 Version = '0.4'
 
 ###----------[ RICH COLOR STYLE ]---------- ###
