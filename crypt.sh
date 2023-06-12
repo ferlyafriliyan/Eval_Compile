@@ -2,7 +2,7 @@
 
 ##   Crypt SSl  : 	Simple File Crypter using Openssl
 ##   Author 	: 	ferlyAfriliyan 
-##   Github 	: 	https://github.com/Livian-xyz
+##   Github 	: 	https://github.com/FerlyXyn
 
 ## If you Copy Then Give the credits :)
 
