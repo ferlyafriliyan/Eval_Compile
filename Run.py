@@ -1,14 +1,12 @@
 # Do not share Original Files
 # Time      = 2023-08-20 01:25:03
-# Platform  = Linux-4.19.198-25976870-abA047FXXU4CWE4-aarch64-with-libc
 # Obfuscated By Ferly Afriliyan >_<
 
 __File__        = "Eval_Compile__Py3"
 ___Instagram___ = "https://www.instagram.com/afriliyanferlly_shishigami"
 
 __Website__     = "https://ferlyafriliyan.vercel.app/"
-__Github__      = "https://github.com/ferlyafriliyan/eval_compile"
-
+__Github__      = "https://github.com/ferlyafriliyan/Eval_Compile"
 
 # Dont Change My Code >_<
 
